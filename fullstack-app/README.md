@@ -2,6 +2,7 @@
 
 A fullstack application for optimizing workforce scheduling across multiple work centers with 
 different skill level requirements.
+
 This is concerned with an employee scheduling problem involving multiple shifts
 and work centers, where employees belong to a hierarchy of categories having downward substitutability. 
 An employee at a higher category may perform the duties of an employee at a lower category, but not vice versa. 
