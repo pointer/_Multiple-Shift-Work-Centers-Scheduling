@@ -1,7 +1,28 @@
 # Multiple Shift Scheduling System
 
-A fullstack application for optimizing workforce scheduling across multiple work centers with different skill level requirements.
+A fullstack application for optimizing workforce scheduling across multiple work centers with 
+different skill level requirements.
+This is concerned with an employee scheduling problem involving multiple shifts
+and work centers, where employees belong to a hierarchy of categories having downward substitutability. 
+An employee at a higher category may perform the duties of an employee at a lower category, but not vice versa. 
+However, a higher category employee receives a higher compensation than a lower category employee. 
+For a given work center, the demand for each category during a given shift is fixed for the weekdays, 
+and may differ from that on weekends. 
+Two objectives need to be achieved: 
+   - The first is to find a minimum-cost workforce mix of categories of employees 
+      that is needed to satisfy specified demand requirements, 
+   - The second is to assign the selected employees to 
+      shifts and work centers, taking into consideration their preferences for shifts, work centers, and off-days.
+The problem is to determine a minimum-cost workforce mix of categories of employees that is needed to satisfy
+specified demand requirements, and to assign the selected employees to shifts and work centers,
+taking into consideration their preferences for shifts, work centers, and off-days.
+A mixed-integer programming model is initially developed for the problem, based on
+which a specialized scheduling heuristic is subsequently developed for the problem. 
+Computational results reported reveal that the proposed heuristic determines solutions proven to lie 
+within 92–99% of optimality for a number of realistic test problems.
 
+Key words: employee scheduling, manpower scheduling, mixed-integer programming,
+hierarchical workforce, scheduling algorithm.
 ## Features
 
 - Employee management with skill categories and preferences
